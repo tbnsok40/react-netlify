@@ -1,4 +1,4 @@
-import React, {useState, useRef, useEffect} from 'react';
+import React, {useState, useRef} from 'react';
 import contacts from '../contacts.json';
 import Detail from "./Detail";
 
