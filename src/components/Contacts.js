@@ -1,4 +1,4 @@
-import React, {fragment, useState} from 'react';
+import React, {useState} from 'react';
 import contacts from '../contacts.json';
 import Detail from "./Detail";
 
