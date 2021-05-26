@@ -2,8 +2,6 @@ import React from 'react';
 import contacts from '../contacts.json';
 
 const Detail = ({selected}) => {
-    console.log("selected: ", selected);
-    console.log(contacts[selected] && contacts[selected]["name"])
     return (
         <div className="col right">
             <div className="details">
