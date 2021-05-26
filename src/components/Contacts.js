@@ -17,6 +17,7 @@ const Contacts = () => {
         if (text.current.value === "") {
             setInputState(false);
             setData(contacts)
+            setSelect(-1)
         } else {
             setInputState(true);
             let tempData = data.filter(d => d.name.toLowerCase().indexOf(text.current.value) > -1);
